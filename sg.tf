@@ -108,7 +108,7 @@ ingress {
          from_port   = 7000
          to_port     = 7000
          protocol    = "tcp"
-         description = "Cassandra"
+         description = "Cassandra test"
       }
        ingress {
          cidr_blocks = ["0.0.0.0/0"]
