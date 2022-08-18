@@ -38,7 +38,7 @@ ingress {
          from_port   = 23
          to_port     = 23
          protocol    = "tcp"
-         description = "telnet"
+         description = "telnet test"
       }
        ingress {
         from_port   = 25
