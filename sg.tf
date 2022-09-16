@@ -11,7 +11,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_security_group" "example" {
+resource "aws_security_group" "TEST" {
 ingress {
          cidr_blocks = ["0.0.0.0/0"]
          from_port   = 80
